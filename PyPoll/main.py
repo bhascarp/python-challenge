@@ -5,7 +5,7 @@ import os
 # Module for reading CSV files
 import csv
 
-csvpath = os.path.join('Resources', 'election_data.csv')
+csvpath = os.path.join('PyPoll','Resources','election_data.csv')
 
 # Reading using CSV module
 
