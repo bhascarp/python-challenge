@@ -5,7 +5,7 @@ import os
 # Module for reading CSV files
 import csv
 
-csvpath = os.path.join("Resources", "budget_data.csv")
+csvpath = os.path.join("PyBank", "Resources", "budget_data.csv")
 
 #Reading the file using CSV module
 with open(csvpath) as csvfile:
@@ -62,7 +62,7 @@ with open(csvpath) as csvfile:
 
     # To export a text file with results
     # Specify the file to write to
-    output_path = os.path.join('analysis', 'Financial Analysis.txt')
+    output_path = os.path.join('PyBank', 'analysis', 'Financial Analysis.txt')
     # Write the results
     with open(output_path, "w") as results:
         results.write("Financial Analysis\n")
