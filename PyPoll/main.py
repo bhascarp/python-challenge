@@ -60,7 +60,7 @@ with open(csvpath) as csvfile:
     
     # To export a text file with results
     # Specify the file to write to
-    output_path = os.path.join('analysis', "Election_Results.txt")
+    output_path = os.path.join('PyPoll','analysis', "Election_Results.txt")
     # Write the results
     with open(output_path, "w") as results:
         results.write("Election Results\n")
